@@ -7,7 +7,7 @@ from transformers import BertForSequenceClassification, BertTokenizer, TextClass
 app = FastAPI()
 
 # Load the model and tokenizer
-model_path = "./model"
+model_path = "JiaqiLee/imdb-finetuned-bert-base-uncased"
 tokenizer = BertTokenizer.from_pretrained(model_path)
 model = BertForSequenceClassification.from_pretrained(model_path, num_labels=2)
 pipeline = TextClassificationPipeline(model=model, tokenizer=tokenizer)
