@@ -8,7 +8,7 @@ model.onnx
 
 #ignore model file and 
 model/
-
+aws/
 # C extensions
 *.so
 
