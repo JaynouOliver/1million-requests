@@ -1,0 +1,8 @@
+fastapi
+torch
+pydantic
+uvicorn
+transformers
+onnxruntime
+uvicorn 
+onnx
